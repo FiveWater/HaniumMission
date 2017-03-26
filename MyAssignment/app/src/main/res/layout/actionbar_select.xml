@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:text="Coffee Please"
+        android:textColor="#E6252525"
+        android:id="@+id/title_select"
+        android:textSize="17dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:lineSpacingExtra="30dip"/>
+
+</LinearLayout>

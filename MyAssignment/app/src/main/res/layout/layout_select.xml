@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="182dp"
+            android:id="@+id/image_coffee"
+            android:src="@drawable/select_coffee"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="71.6dp"
+            android:text="COFFEE"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:background="#00FF0000"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_divider1"
+            android:src="@drawable/divider"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="103.6dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="109.6dp"
+            android:text="Hot \u0026 Ice"
+            android:textColor="#FFFFFFFF"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:background="#00FF0000" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="182dp"
+            android:id="@+id/image_breakfast"
+            android:src="@drawable/select_breakfast"
+            android:layout_marginTop="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80.6dp"
+            android:text="BREAKFAST"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:background="#00FF0000"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_divider2"
+            android:src="@drawable/divider"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="112.6dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="118.6dp"
+            android:text="Bread \u0026 Sandwitch"
+            android:textColor="#FFFFFFFF"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:background="#00FF0000" />
+
+    </FrameLayout>
+</LinearLayout>
