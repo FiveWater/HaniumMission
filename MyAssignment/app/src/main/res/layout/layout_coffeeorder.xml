@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coffee_order_view">
+    
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="70dp" >
+
+        <TextView
+            android:layout_width="168dp"
+            android:layout_height="18dp"
+            android:id="@+id/text_robot_say2"
+            android:text="@string/robot_say2"
+            android:textColor="#007754"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:layout_marginLeft="96dp"
+            android:layout_marginTop="17dp"/>
+
+        <ImageView
+            android:layout_width="162dp"
+            android:layout_height="18dp"
+            android:id="@+id/progress_1"
+            android:src="@drawable/progress"
+            android:layout_marginLeft="96dp"
+            android:layout_marginTop="39dp"/>
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:id="@+id/mainIcon"
+            android:src="@drawable/robotbucks"
+            android:layout_marginLeft="33dp"
+            android:layout_alignBottom="@+id/progress_1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="33dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/coffee_items_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <ListView
+            android:id="@+id/coffee_items_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </ScrollView>
+
+</LinearLayout>

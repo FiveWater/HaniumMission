@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="70dp"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/button_layout">
+
+        <FrameLayout
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:id="@+id/order_button"
+            android:background="#FF007754">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:text="@string/ORDER"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="21dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:id="@+id/orderPrice"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="174dp"
+                    android:layout_marginTop="27dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold" />
+
+        </FrameLayout>
+
+</RelativeLayout>

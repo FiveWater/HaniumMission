@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="66dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/image_Esspresso"
+        android:src="@drawable/coffee_icon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"/>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+
+            android:id="@+id/coffeeText"
+            android:textSize="17dp"
+            android:textColor="#252525"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="15dp"
+
+            android:id="@+id/priceText"
+            android:textSize="13dp"
+            android:textColor="#979797"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:layout_marginLeft="25dp" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:id="@+id/check"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="18dp"/>
+
+</LinearLayout>
